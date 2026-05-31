@@ -53,6 +53,8 @@ namespace {
     }
 }
 namespace ImGui {
+    ImGuiKey GetKeyIndex(ImGuiKey key);
+
     ImGuiKey GetKeyIndex(ImGuiKey key)
     {
         IM_ASSERT(IsNamedKey(key));
